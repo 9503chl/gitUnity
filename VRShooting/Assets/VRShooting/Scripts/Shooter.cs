@@ -7,6 +7,7 @@ public class Shooter : MonoBehaviour
     [SerializeField] GameObject bulletPrefab; // 총알 프리팹
 	[SerializeField] Transform gunBarrelEnd;  // 총구(총알의 발사 위치)
 	[SerializeField] ParticleSystem gunParticle; // 발사 시 연출
+    [SerializeField] AudioSource gunAudioSource; //소리음원
 
     void Update()
     {
@@ -24,5 +25,7 @@ public class Shooter : MonoBehaviour
 
         // 발사 시 연출을 재생
         gunParticle.Play();
+
+        gunAudioSource.Play();
     }
 }
