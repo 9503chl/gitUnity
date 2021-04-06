@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Canvas3
+    uniqueID: 186721485
+    locked: 0
+  - name: Canvas2
+    uniqueID: 1341983141
+    locked: 0
+  - name: Canvas1
+    uniqueID: 1572527067
+    locked: 0
