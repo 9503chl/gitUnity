@@ -12,8 +12,4 @@ public class ball : MonoBehaviour
         var rigidbody = GetComponent<Rigidbody>();
         rigidbody.AddForce(velocity, ForceMode.VelocityChange);
     }
-    void OnTriggerEnter(Collider other)
-    {
-        other.SendMessage("Scored");
-    }
 }
