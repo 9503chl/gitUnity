@@ -56,7 +56,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraRotator.cs" />
+     <Compile Include="Assets\Scripts\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\GameStateController.cs" />
+     <Compile Include="Assets\Scripts\GoalDae.cs" />
+     <Compile Include="Assets\Scripts\GoalDaeSpawner.cs" />
      <Compile Include="Assets\Scripts\RemainTimer.cs" />
      <Compile Include="Assets\Scripts\ResultScore.cs" />
      <Compile Include="Assets\Scripts\SceneChanger.cs" />
