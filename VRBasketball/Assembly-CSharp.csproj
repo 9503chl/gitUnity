@@ -53,17 +53,17 @@
     <UnityVersion>2020.3.5f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Goal.cs" />
+    <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\GameStateController.cs" />
     <Compile Include="Assets\Scripts\Shooter.cs" />
     <Compile Include="Assets\Scripts\ball.cs" />
-    <Compile Include="Assets\Scripts\CameraRotator.cs" />
-    <Compile Include="Assets\Scripts\autoDestroy.cs" />
     <Compile Include="Assets\Scripts\RemainTimer.cs" />
-    <Compile Include="Assets\Scripts\Score.cs" />
-    <Compile Include="Assets\Scripts\ResultScore.cs" />
-    <Compile Include="Assets\Scripts\Goal.cs" />
-    <Compile Include="Assets\Scripts\Rotator.cs" />
     <Compile Include="Assets\Scripts\SceneChanger.cs" />
+    <Compile Include="Assets\Scripts\Rotator.cs" />
+    <Compile Include="Assets\Scripts\CameraRotator.cs" />
+    <Compile Include="Assets\Scripts\ResultScore.cs" />
+    <Compile Include="Assets\Scripts\autoDestroy.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Kevin Iglesias\3DCharacterDummy\Readme.txt" />
