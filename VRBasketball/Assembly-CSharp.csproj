@@ -64,6 +64,8 @@
     <Compile Include="Assets\Scripts\CameraRotator.cs" />
     <Compile Include="Assets\Scripts\ResultScore.cs" />
     <Compile Include="Assets\Scripts\autoDestroy.cs" />
+    <Compile Include="Assets\Scripts\PointerInputModule.cs" />
+    <Compile Include="Assets\Scripts\GazeHoldEvent.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Kevin Iglesias\3DCharacterDummy\Readme.txt" />
