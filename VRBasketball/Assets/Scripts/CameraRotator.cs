@@ -14,7 +14,6 @@ public class CameraRotator : MonoBehaviour
         // 입력에 따라 회전량을 취득
         var horizontalRotation = Input.GetAxis("Horizontal") * angularVelocity * Time.deltaTime;
         var verticalRotation = -Input.GetAxis("Vertical") * angularVelocity * Time.deltaTime;
-
         // 회전량을 갱신
         horizontalAngle += horizontalRotation;
         verticalAngle += verticalRotation;
@@ -22,7 +21,8 @@ public class CameraRotator : MonoBehaviour
         // 수직 방향은 너무 회전하지 않게 제한
         verticalAngle = Mathf.Clamp(verticalAngle, -80f, 80f);
 
-        // Transform 컴포넌트에 회전량을 적용한다
+        // Transform 컴포넌트에 회전량을 적용한다\
+        
         transform.rotation = Quaternion.Euler(verticalAngle, horizontalAngle, 0f);
     }
 #endif
